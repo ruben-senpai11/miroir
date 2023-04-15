@@ -1,0 +1,222 @@
+:root{
+    /* Colors  */
+    --light_gray: #EEEEEE;
+    --light_orange: #FFD8D8;
+    --red-orange: #FF4545;
+    --blue: #008DFF;
+    --pink-purple: #CD388C;
+    --orange: #FF9945;
+    --dark-red-orange: #D51212;
+    --dark-blue: #0061AF;
+    --dark-pink-puple: #BE006B;
+    --dark-orange: #FF7402;
+}
+
+@font-face {
+    font-family: 'Modulus pro';
+    src: url('../../fonts/modulus-pro-medium.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Modulus pro bold';
+    src: url('../../fonts/modulus-pro-bold.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: var(--light_gray);
+    font-family: 'Open sans, Regular';
+    font-size: 20px;
+}
+
+.big-container{
+    border-radius: 130px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.container h2{
+    font-family: 'Modulus Pro bold';
+    font-size: 40px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.default-text{
+    font-size: 16px;
+}
+.mille{
+    width: 850px;
+    height: 180px;
+    box-shadow: 5px 5px 20px #00000067;
+    margin: 35px auto;
+    border-radius: 15px;
+}
+.mille h4{
+    font-family: 'Modulus Pro bold';
+    margin: 15px;
+    margin-bottom: 25px;
+}
+.mille .row{
+    margin: 0 auto;
+    width: 100%;
+}
+.mille .row .col-lg-3{
+    width: 230px;
+    text-align: start;
+    margin: 3px auto;
+    font-size:  15px;
+}
+.mille .row .col-lg-3 img{
+    width: 23px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.feature{
+    width: 900px;
+    margin: 80px auto;   
+    padding: 15px auto; 
+}
+.rounded-feat{
+    height: 60px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px #00000067;
+    margin: 0 15px;
+}
+.rounded-feat p{
+    margin-top: 10px;
+    width: fit-content;
+}
+.rounded-feat img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.rounded-feat a{
+    color: var(--red-orange);
+    font-family: 'Modulus pro bold';
+    font-weight: 300;
+    font-size: 14px
+}
+.rounded-feat a:hover{
+    text-decoration-line: none!important;
+}
+
+.show{
+    max-width: max-content;
+    margin: 80px 0 0 0!important;
+    padding: 10px;
+}
+.show-content{
+    width: 200px!important;
+    height: 460px;
+    box-shadow: 0px 0px 20px #00000038;
+    margin: 10px;   
+    border-radius: 35px;
+}
+.show-text{
+    font-size: 14px;
+}
+.pricing-text{
+    margin: 0px 5px;
+    margin-top: 50px!important;
+    /* height: 300px; */
+}
+.pricing-text img{
+    width: 16px;
+    height: 16px;
+    margin: 2px 10px 0 5px!important;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+
+.floating-img{
+    margin: -12px;
+    margin-top: -70px;
+}
+.floating-img img{
+    width: 200px;
+    height: 200px;
+}
+
+.absolute-text{
+    color: white;
+    position: absolute;
+    z-index: 2;
+    margin-top: -90px;
+    max-width: 150px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.fill{
+    height: 100%;
+    border: solid;
+}
+
+.know-more{
+    width: 900px!important;
+}
+.know-more-button{
+    width: 160px!important;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    margin: -45px 20px 100px 20px!important;
+    color: white;
+}
+
+.more-1{
+    background-color: var(--red-orange);
+}
+.more-2{
+    background-color: var(--blue);
+}
+.more-3{
+    background-color: var(--pink-purple);
+}
+.more-4{
+    background-color: var(--orange);
+}
+
+.more-1:hover{
+    background-color: var(--dark-red-orange);
+}
+.more-2:hover{
+    background-color: var(--dark-blue);
+}
+.more-3:hover{
+    background-color: var(--dark-pink-puple);
+}
+.more-4:hover{
+    background-color: var(--dark-orange);
+}
+@media only screen and (max-width: 768px) {
+    
+    .container h2{
+        font-family: 'Modulus Pro bold';
+        font-size: 24px;
+        margin: 0;
+    }
+    .default-text{
+        font-size: 12px;
+    }
+    .mille{
+        width: 300px;
+        height: 315px;
+    }
+    .mille h4{
+        font-size: 16px;
+        margin-left: -15px;
+        margin-top: 20px;
+    }
+    .mille .row .col-lg-3{
+        font: normal normal normal 16px Open Sans;
+        padding: 3px 0px;
+    }
+}

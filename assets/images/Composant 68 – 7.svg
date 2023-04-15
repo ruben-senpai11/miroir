@@ -1,0 +1,10 @@
+<svg id="Composant_68_7" data-name="Composant 68 – 7" xmlns="http://www.w3.org/2000/svg" width="159" height="37" viewBox="0 0 159 37">
+  <g id="Rectangle_98" data-name="Rectangle 98" fill="#ff4545" stroke="#ff4545" stroke-width="3">
+    <rect width="159" height="37" rx="6" stroke="none"/>
+    <rect x="1.5" y="1.5" width="156" height="34" rx="4.5" fill="none"/>
+  </g>
+  <g id="Groupe_901" data-name="Groupe 901" transform="translate(15 7)">
+    <text id="Voir_les_tarifs" data-name="Voir les tarifs" transform="translate(80.435 17)" fill="#fff" font-size="16" font-family="OpenSans, Open Sans"><tspan x="-48" y="0">Voir les tarifs</tspan></text>
+    <path id="Tracé_71" data-name="Tracé 71" d="M1024.144,992.856l8.381,8.381,8.381-8.381" transform="translate(-1024.144 -985.599)" fill="none" stroke="#fff" stroke-width="2"/>
+  </g>
+</svg>

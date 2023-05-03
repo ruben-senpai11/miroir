@@ -1,115 +1,837 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/images/capsul-logo-red-1.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/page 7_8/capsul-logo-red-1.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/styles 7_8.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <title>Tarifs</title>
+    <title>Tarifs Web</title>
 </head>
 <body>
-    
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Open modal for @mdo</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Recipient:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
     <div class="big-container">
-        <div class="container justify-content-center">
+        <div class="container justify-content-center mt-5">
             <div class="row ">
-                <div class="col-xl-12 col-md-12 col-sm-12 text-center p-0">                            
+                <div class="col-xl-12 col-md-12 col-sm-12 text-center p-0">
                     <h2 class="mb-2">Nos fonctionnalités au service de votre marque</h2>
-                    <p class="default-text mt-0">Créer le buzz, booster la notoriété de votre marque, booster vos ventes avec ou sans l’option click & buy</p>
+                    <p class="default-text mt-0">Créer le buzz, booster la notoriété de votre marque, booster vos ventes
+                        avec ou sans l’option click & buy</p>
                     <div class="mille p-2">
                         <h4>1 Miroir, 1000 utilisations</h4>
                         <div class="row m-auto">
-                            <div class="col-lg-3 d-inline-block"><p><img src="assets/images/Icon ionic-md-calendar.svg" alt="svg">Événementiel</p></div>
-                            <div class="col-lg-3 d-inline-block"><p><img src="assets/images/Icon awesome-key.svg" alt="svg">Ventes Privées</p></div>
-                            <div class="col-lg-3 d-inline-block"><p><img src="assets/images/Icon ionic-md-pin.svg" alt="svg">Points de vente</p></div>
+                            <div class="col-lg-3 d-inline-block">
+                                <p><img src="assets/images/page 7_8/Icon ionic-md-calendar.svg" alt="svg">Événementiel
+                                </p>
+                            </div>
+                            <div class="col-lg-3 d-inline-block">
+                                <p><img src="assets/images/page 7_8/Icon awesome-key.svg" alt="svg">Ventes Privées</p>
+                            </div>
+                            <div class="col-lg-3 d-inline-block">
+                                <p><img src="assets/images/page 7_8/Icon ionic-md-pin.svg" alt="svg">Points de vente</p>
+                            </div>
                         </div>
                         <div class="row m-auto">
-                            <div class="col-lg-3 d-inline-block"><p><img src="assets/images/Icon metro-shop.svg" alt="svg">Animations commerciales</p> </div>
-                            <div class="col-lg-3 d-inline-block"><p><img src="assets/images/Icon ionic-ios-rocket.svg" alt="svg">Lancement de produit</p></div>
-                            <div class="col-lg-3 d-inline-block"><p><img src="assets/images/Icon ionic-md-pricetags.svg" alt="svg">Offres promotionnelles</p></div>
+                            <div class="col-lg-3 d-inline-block">
+                                <p><img src="assets/images/page 7_8/Icon metro-shop.svg" alt="svg">Animations
+                                    commerciales</p>
+                            </div>
+                            <div class="col-lg-3 d-inline-block">
+                                <p><img src="assets/images/page 7_8/Icon ionic-ios-rocket.svg" alt="svg">Lancement de
+                                    produit</p>
+                            </div>
+                            <div class="col-lg-3 d-inline-block">
+                                <p><img src="assets/images/page 7_8/Icon ionic-md-pricetags.svg" alt="svg">Offres
+                                    promotionnelles</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="feature ">
+                    <div class="feature">
                         <div class="row d-flex justify-content-center">
-                            <div class="col rounded-feat d-flex justify-content-center"><p><img src="assets/images/Groupe 330.svg" alt="svg"><a href="#">Le Miroir Magique</a></p></div>
-                            <div class="col rounded-feat d-flex justify-content-center"><p><img src="assets/images/Icon awesome-tshirt-1.svg" alt="svg"><a href="#">Étagère virtuelle</a></p></div>
-                            <div class="col rounded-feat d-flex justify-content-center"><p><img src="assets/images/Icon ionic-logo-game-controller-b.svg" alt="svg"><a href="#">Jeux Interactifs</a></p></div>
-                            <div class="col rounded-feat d-flex justify-content-center"><p><img src="assets/images/Icon material-photo-camera.svg" alt="svg"><a href="#">PhotoBooth</a></p></div>
+                            <button class="col rounded-feat d-flex justify-content-center">
+                                <p><img src="assets/images/page 7_8/Groupe 330.svg" alt="svg"><a href="#">Le Miroir
+                                        Magique</a></p>
+                            </button>
+                            <button class="col rounded-feat d-flex justify-content-center">
+                                <p><img src="assets/images/page 7_8/Icon awesome-tshirt-1.svg" alt="svg"><a
+                                        href="#">Étagère virtuelle</a></p>
+                            </button>
+                            <button class="col rounded-feat d-flex justify-content-center">
+                                <p><img src="assets/images/page 7_8/Icon ionic-logo-game-controller-b.svg" alt="svg"><a
+                                        href="#">Jeux Interactifs</a></p>
+                            </button>
+                            <button class="col rounded-feat d-flex justify-content-center">
+                                <p><img src="assets/images/page 7_8/Icon material-photo-camera.svg" alt="svg"><a
+                                        href="#">PhotoBooth</a></p>
+                            </button>
                         </div>
                     </div>
-                </div>      
+                    <div class="mobile-feature text-start mt-0">
+                        <nav class="navbar bg-body">
+                            <div class="container-fluid">
+                                <a class="navbar-brand" href="#">Les fonctionnalités</a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse mt-0" id="navbarNavAltMarkup">
+                                    <div class="navbar-nav">
+                                        <a class="nav-link" href="#">Le Miroir Magique</a>
+                                        <a class="nav-link" href="#">Étagère virtuelle</a>
+                                        <a class="nav-link" href="#">Jeux Interactifs</a>
+                                        <a class="nav-link" href="#">PhotoBooth</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
                 <div class="row d-flex justify-content-center show show-text">
                     <div class="col-lg-3 show-content ">
-                        <div class="floating-img"><img src="assets/images/Groupe 1280.svg" alt=""></div>
-                        <div class="d-flex justify-content-center">
-                            <div class="absolute-text">MODE, BEAUTE, COSMETIQUE</div>
+                        <div class="h-100 more-test">
+                            <div class="floating-img"><img src="assets/images/page 7_8/Groupe 1280.svg" alt=""></div>
+                            <div class="d-flex justify-content-center">
+                                <div class="absolute-text">MODE, BEAUTE, COSMETIQUE</div>
+                            </div>
+                            <div class="row pricing-text">
+                                <p class="d-flex "><img src="assets/images/page 7_8/Groupe 942.svg" alt="">Essayage
+                                    virtuel</p>
+                                <p class="d-flex "><img src="assets/images/page 7_8/Groupe 942.svg" alt="">Catalogue
+                                    interactif</p>
+                                <p class="d-flex "><img src="assets/images/page 7_8/Groupe 942.svg" alt="">Étagère
+                                    virtuelle</p>
+                                <p class="d-flex "><img src="assets/images/page 7_8/Groupe 942.svg" alt="">Cabine
+                                    d’essayage virtuelle</p>
+                                <p class="d-flex "><img src="assets/images/page 7_8/Groupe 942.svg"
+                                        alt="">Fonctionnalité « porter et comparer »</p>
+                                <p class="d-flex "><img src="assets/images/page 7_8/Groupe 942.svg" alt="">Jeux
+                                    interactifs</p>
+                            </div>
                         </div>
-                        <div class="row pricing-text">
-                            <p class="d-flex "><img src="assets/images/Groupe 942.svg" alt="">Essayage virtuel</p>
-                            <p class="d-flex "><img src="assets/images/Groupe 942.svg" alt="">Catalogue interactif</p>
-                            <p class="d-flex "><img src="assets/images/Groupe 942.svg" alt="">Étagère virtuelle</p>
-                            <p class="d-flex "><img src="assets/images/Groupe 942.svg" alt="">Cabine d’essayage virtuelle</p>
-                            <p class="d-flex "><img src="assets/images/Groupe 942.svg" alt="">Fonctionnalité « porter et comparer »</p>
-                            <p class="d-flex "><img src="assets/images/Groupe 942.svg" alt="">Jeux interactifs</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 show-content">    
-                        <div class="floating-img"><img src="assets/images/Groupe 1281.svg" alt=""></div>
-                        <div class="d-flex justify-content-center">
-                            <div class="absolute-text">CULTURE</div>
-                        </div>
-                        <div class="row pricing-text">
-                            <p class="d-flex "><img src="assets/images/Groupe 950.svg" alt="">Catalogue interactif</p>
-                            <p class="d-flex "><img src="assets/images/Groupe 950.svg" alt="">Gaming  éducatif</p>
-                            <p class="d-flex "><img src="assets/images/Groupe 950.svg" alt="">Filtre fun expérience</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 show-content ">                        
-                        <div class="floating-img"><img src="assets/images/Groupe 1282.svg" alt=""></div>
-                        <div class="d-flex justify-content-center">
-                            <div class="absolute-text">LOISIRS, CONCERTS, SPECTACLES, EVENEMENTIEL</div>
-                        </div>
-                        <div class="row pricing-text">
-                            <p class="d-flex "><img src="assets/images/Groupe 952-1.svg" alt="">Photobooth « Immortalise-toi avec ta star préférée ! »</p>
-                            <p class="d-flex "><img src="assets/images/Groupe 952-1.svg" alt="">Filtres de marque</p>
-                            <p class="d-flex "><img src="assets/images/Groupe 952-1.svg" alt="">Jeux interactifs ou pédagogiques</p>
-                            <p class="d-flex "><img src="assets/images/Groupe 952-1.svg" alt="">Filtre Fun Expérience</p>
-                        </div>
+                        <button class="darken-button know-more-button more-1">En savoir plus</button>
                     </div>
                     <div class="col-lg-3 show-content">
-                        <div class="floating-img"><img src="assets/images/Groupe 1283.svg" alt=""></div>
-                        <div class="d-flex justify-content-center">
-                            <div class="absolute-text"><p> IMMOBILIER</p></div>
+                        <div class="h-100 more-test">
+                            <div class="floating-img"><img src="assets/images/page 7_8/Groupe 1281.svg" alt=""></div>
+                            <div class="d-flex justify-content-center">
+                                <div class="absolute-text">CULTURE</div>
+                            </div>
+                            <div class="row pricing-text">
+                                <p class="d-flex "><img src="assets/images/page 7_8/Groupe 950.svg" alt="">Catalogue
+                                    interactif</p>
+                                <p class="d-flex "><img src="assets/images/page 7_8/Groupe 950.svg" alt="">Gaming 
+                                    éducatif</p>
+                                <p class="d-flex "><img src="assets/images/page 7_8/Groupe 950.svg" alt="">Filtre fun
+                                    expérience</p>
+                            </div>
                         </div>
-                        <div class="row pricing-text">
-                            <p class="d-flex "><img src="assets/images/Groupe 952-4.svg" alt="">Visite virtuelle 2D et 3D</p>
-                            <p class="d-flex "><img src="assets/images/Groupe 952-4.svg" alt="">Immersive Brand</p>
-                        </div>
+                        <button class="darken-button know-more-button more-2">En savoir plus</button>
                     </div>
-                </div>          
-                <div class="d-flex justify-content-center"> 
-                    <div class="row d-flex justify-content-evenly know-more">
-                        <button class="know-more-button more-1">En savoir plus</button>
-                        <button class="know-more-button more-2">En savoir plus</button>
-                        <button class="know-more-button more-3">En savoir plus</button>
-                        <button class="know-more-button more-4">En savoir plus</button>
+                    <div class="col-lg-3 show-content ">
+                        <div class="h-100 more-test">
+                            <div class="floating-img"><img src="assets/images/page 7_8/Groupe 1282.svg" alt=""></div>
+                            <div class="d-flex justify-content-center">
+                                <div class="absolute-text">LOISIRS, CONCERTS, SPECTACLES, EVENEMENTIEL</div>
+                            </div>
+                            <div class="row pricing-text">
+                                <p class="d-flex "><img src="assets/images/page 7_8/Groupe 952-1.svg" alt="">Photobooth
+                                    « Immortalise-toi avec ta star préférée ! »</p>
+                                <p class="d-flex "><img src="assets/images/page 7_8/Groupe 952-1.svg" alt="">Filtres de
+                                    marque</p>
+                                <p class="d-flex "><img src="assets/images/page 7_8/Groupe 952-1.svg" alt="">Jeux
+                                    interactifs ou pédagogiques</p>
+                                <p class="d-flex "><img src="assets/images/page 7_8/Groupe 952-1.svg" alt="">Filtre Fun
+                                    Expérience</p>
+                            </div>
+                        </div>
+                        <button class="darken-button know-more-button more-3">En savoir plus</button>
+                    </div>
+                    <div class="col-lg-3 show-content">
+                        <div class="h-100 more-test">
+                            <div class="floating-img"><img src="assets/images/page 7_8/Groupe 1283.svg" alt=""></div>
+                            <div class="d-flex justify-content-center">
+                                <div class="absolute-text">
+                                    <p> IMMOBILIER</p>
+                                </div>
+                            </div>
+                            <div class="row pricing-text">
+                                <p class="d-flex "><img src="assets/images/page 7_8/Groupe 952-4.svg" alt="">Visite
+                                    virtuelle 2D et 3D</p>
+                                <p class="d-flex "><img src="assets/images/page 7_8/Groupe 952-4.svg" alt="">Immersive
+                                    Brand</p>
+                            </div>
+                        </div>
+                        <button class="darken-button know-more-button more-4">En savoir plus</button>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-4">
-                        
+                <div class="mx-auto big-and-small-img">
+                    <div class="row d-flex justify-content-center centered-img">
+                        <span class="mobile-images d-flex justify-content-center">
+                            <img class="small-img" src="assets/images/page 7_8/1b57c5785a03d468c2cdbcd13a7dd36b-1.png"
+                                alt="" srcset="">
+                            <img class="big-img" src="assets/images/page 7_8/2176fbc5ab86f8324f453c46a8fc367b.png"
+                                alt="" srcset="">
+                            <img src="assets/images/page 7_8/m-2176fbc5ab86f8324f453c46a8fc367b.png" alt=""
+                                class="mobile-img">
+                        </span>
                     </div>
-                    <div class="col-lg-8 col-sm-8"></div>
+                    <div class="row d-flex justify-content-center centered-img">
+                        <span class="mobile-images d-flex justify-content-center">
+                            <img class="big-img" src="assets/images/page 7_8/31ced65f0552aa54ac99372072a10c35.png"
+                                alt="" srcset="">
+                            <img class="small-img" src="assets/images/page 7_8/1b57c5785a03d468c2cdbcd13a7dd36b-1.png"
+                                alt="" srcset="">
+                            <img src="assets/images/page 7_8/m-31ced65f0552aa54ac99372072a10c35.png" alt=""
+                                class="mobile-img">
+                        </span>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-8 col-sm-8"></div>
-                    <div class="col-lg-4 col-sm-4"></div>
+                <div class="mb-3 text-center reserve">
+                    <div class="d-flex justify-content-center">
+                        <h3>Réservez Miroir, mon beau Miroir</h3>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="miror-sizes">
+                            <span>2 tailles de miroir</span>
+                            <span><img class="size-s" src="assets/images/page 7_8/Groupe 981.svg" alt=""></span>
+                            <span><img class="size-xl" src="assets/images/page 7_8/Groupe 982.svg" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tables">
+                    <div class="d-flex justify-content-evenly black-table-header">
+                        <p class="header-text">3,2,1… Maquillée !</p>
+                        <p class="header-text">Cap Fashionista</p>
+                        <p class="header-text">Let’s play</p>
+                        <p class="header-text">Click & Share !</p>
+                        <p class="header-text">C’est Ma future maison</p>
+                        <p class="header-text">Mon meilleur moi !</p>
+                    </div>
+                    <div class="row d-flex justify-content-center table-columns">
+                        <div class="columns-text table-column">
+                            <p class="ligne1"><strong>Essayage virtuel maquillage</strong></p>
+                            <hr>
+                            <ul class="ligne2">
+                                <li>Essai (5) thèmes de  Maquillage</li>
+                                <li>Essai  (10 ) Couleurs de Rouge à lèvre</li>
+                                <li>Click & Buy</li>
+                            </ul>
+                            <hr>
+                            <p class="ligne3">1 Filtre FUN <bmw class="red-text">S</bmw>
+                            </p>
+                            <hr>
+                            <p class="ligne4">Booster les ventes avec un dispositif fun incitant au coup de cœur</p>
+                            <p class="ligne5">Filtre sur mesure</p>
+                            <hr>
+                            <p class="ligne6"></p>
+                            <hr>
+                            <p class="ligne7"></p>
+                            <hr>
+                            <p class="ligne8">Catalogue Interactif Scan and View</p>
+                            <hr>
+                            <p class="ligne9">Vente via Mobile</p>
+                            <hr>
+                            <p class="ligne10">Impression photo papier</p>
+                            <hr>
+                            <p class="ligne11">Jeux interactifs</p>
+                            <hr>
+                            <p class="ligne12">Personnalisation du bas de l’écran</p>
+                            <hr class="mb-2">
+                            <a class="red-text" href="">En savoir plus</a>
+                        </div>
+                        <div class="columns-text table-column">
+                            <p class="ligne1"><strong>Essayage virtuel mode</strong></p>
+                            <hr>
+                            <ul class="ligne2">
+                                <li>Essayage vêtements de MODE (5) : veste, robe, chemise…</li>
+                                <li>Click & Buy</li>
+                                <li>Rendu en 2D Option costume</li>
+                            </ul>
+                            <hr>
+                            <p class="ligne3">1 Filtre BRAND AR Photobooth <bmw class="red-text">XL</bmw>
+                            </p>
+                            <hr>
+                            <p class="ligne4">Enrichir l’expérience client sur votre point de vente, en proposant une
+                                expérience fun
+                                qui incite ensuite à découvrir le reste de la collection sur place</p>
+                            <p class="ligne5">Template sur mesure  2D ou 3D</p>
+                            <hr>
+                            <p class="ligne6">Modélisation en 3D</p>
+                            <hr>
+                            <p class="ligne7">Accessoires de mode en vente combinée</p>
+                            <hr>
+                            <p class="ligne8">Catalogue Interactif Scan and View</p>
+                            <hr>
+                            <p class="ligne9">Vente via Mobile</p>
+                            <hr>
+                            <p class="ligne10">Mini-site</p>
+                            <hr>
+                            <p class="ligne11">Jeux interactifs</p>
+                            <hr>
+                            <p class="ligne12">Personnalisation du bas de l’écran</p>
+                            <hr class="mb-2">
+                            <a class="red-text" href="">En savoir plus</a>
+                        </div>
+                        <div class="columns-text table-column">
+                            <p class="ligne1"><strong>Gaming</strong></p>
+                            <hr>
+                            <p class="ligne2">1 Jeu interactif</p>
+                            <hr>
+                            <p class="ligne3">2 Filtres BRAND AR Photobooth <bmw class="red-text">XL</bmw>
+                            </p>
+                            <hr>
+                            <p class="ligne4">Divertir et renforcer le capital sympathie de votre marque</p>
+                            <p class="ligne5">Filtre FUN sur mesure</p>
+                            <hr>
+                            <p class="ligne6"></p>
+                            <hr>
+                            <p class="ligne7">Impression photo papier</p>
+                            <hr>
+                            <p class="ligne8">Jeux bon de réduction à gagner</p>
+                            <hr>
+                            <p class="ligne9"></p>
+                            <hr>
+                            <p class="ligne10"></p>
+                            <hr>
+                            <p class="ligne11"></p>
+                            <hr>
+                            <p class="ligne12">Personnalisation du bas de l’écran</p>
+                            <hr class="mb-2">
+                            <a class="red-text" href="">En savoir plus</a>
+                        </div>
+                        <div class="columns-text table-column">
+                            <p class="ligne1"><strong>Personnalisation du bas de l’écran</strong></p>
+                            <hr>
+                            <p class="ligne2">Filtres (5)  ** FUN / AR Photobooth</p>
+                            <hr>
+                            <p class="ligne3">1 Jeu interractif <bmw class="red-text">XL</bmw>
+                            </p>
+                            <hr>
+                            <p class="ligne4">Renforcer la notoriété de votre marque et contribuer au développement de
+                                votre communauté</p>
+                            <p class="ligne5">GIF Interactif</p>
+                            <hr>
+                            <p class="ligne6">Catalogue immersif</p>
+                            <hr>
+                            <p class="ligne7">Questionnaire ludique</p>
+                            <hr>
+                            <p class="ligne8"></p>
+                            <hr>
+                            <p class="ligne9"></p>
+                            <hr>
+                            <p class="ligne10"></p>
+                            <hr>
+                            <p class="ligne11"></p>
+                            <hr>
+                            <p class="ligne12"></p>
+                            <hr class="mb-2">
+                            <a class="red-text" href="">En savoir plus</a>
+                        </div>
+                        <div class="columns-text table-column">
+                            <p class="ligne1"><strong>Visite virtuelle</strong></p>
+                            <hr>
+                            <p class="ligne2">Visite virtuelle 2D Photo /Vidéo</p>
+                            <hr>
+                            <p class="ligne3">1 Filtre BRAND <bmw class="red-text">S</bmw>
+                            </p>
+                            <hr>
+                            <p class="ligne4">Proposer une expérience différenciante par rapport à la concurrence</p>
+                            <p class="ligne5">Visite en 3D</p>
+                            <hr>
+                            <p class="ligne6">Filtre sur mesure</p>
+                            <hr>
+                            <p class="ligne7"></p>
+                            <hr>
+                            <p class="ligne8"></p>
+                            <hr>
+                            <p class="ligne9">Vente via Mobile</p>
+                            <hr>
+                            <p class="ligne10">Mini-site</p>
+                            <hr>
+                            <p class="ligne11">Jeux interactifs</p>
+                            <hr>
+                            <p class="ligne12">Personnalisation du bas de l’écran</p>
+                            <hr class="mb-2">
+                            <a class="red-text" href="">En savoir plus</a>
+                        </div>
+                        <div class="columns-text table-column">
+                            <p class="ligne1"><strong>Suggérer des tenues complètes à comparer</strong></p>
+                            <hr>
+                            <ul class="ligne2">
+                                <li>Comparaison de tenue en essayage virtuel (5)</li>
+                                <li>Click & Buy **Rendu 3D</li>
+                            </ul>
+                            <hr>
+                            <p class="ligne3">1 Filtre FUN <bmw class="red-text">XL</bmw>
+                            </p>
+                            <hr>
+                            <p class="ligne4">Éviter les queues en cabine d’essayage en permettant de l’essayage
+                                comparatif sur les looks iconiques de votre collection</p>
+                            <p class="ligne5">Template sur mesure</p>
+                            <hr>
+                            <p class="ligne6">Modélisation en 3D</p>
+                            <hr>
+                            <p class="ligne7">Impression photo papier</p>
+                            <hr>
+                            <p class="ligne8"></p>
+                            <hr>
+                            <p class="ligne9"></p>
+                            <hr>
+                            <p class="ligne10">Mini-site</p>
+                            <hr>
+                            <p class="ligne11">Jeux interactifs</p>
+                            <hr>
+                            <p class="ligne12">Personnalisation du bas de l’écran</p>
+                            <hr class="mb-2">
+                            <a class="red-text column-end-link" href="">En savoir plus</a>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="table-ender">
+                        <h6>Une opé ou un devis sur mesure ? <a href="" class="red-text">Parlons – nous</a></h6>
+                    </div>
+                    <div class="tarifs">
+                        <div class="accordion-item accordion">
+                            <div class="d-flex red-line-button">
+                                <hrw class="accordion-hr hr-left"></hrw>
+                                <h6 class="accordion-header" id="flush-headingOne">
+                                    <button id="myButton" onclick="changeText()" class="collapsed accordion-declencher-button" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                        aria-expanded="false" aria-controls="flush-collapeOne">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd"d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" /></svg> Voir les tarifs
+                                    </button>
+                                </h6>
+                                <hrw class="accordion-hr"></hrw>
+                            </div>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <img src="assets/images/page 7_8/Groupe 929.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-around call-to-contact">
+                            <h3>Un besoin sur mesure ?</h3>
+                            <div class="devis">
+                                <p>Pour un devis sur mesure</p>
+                                <button class="darken-button red-button" type="submit">Contactez-nous!</button>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center call-to-contact-bottom-border">
+                            <img src="assets/images/page 7_8/Groupe 984.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-tables">
+                    <div class="row mb-5 table-row-1">
+                        <div class="d-flex justify-content-evenly mobile-table-header">
+                            <p class="header-text">3,2,1… Maquillée !</p>
+                            <p class="header-text">Cap Fashionista</p>
+                        </div>
+                        <div class="row table-columns c-1">
+                            <div class="columns-text table-column ">
+                                <p class="ligne1"><strong>Essayage virtuel maquillage</strong></p>
+                                <hr>
+                                <ul class="ligne2">
+                                    <li>Essai (5) thèmes de  Maquillage</li>
+                                    <li>Essai  (10 ) Couleurs de Rouge à lèvre</li>
+                                    <li>Click & Buy</li>
+                                </ul>
+                                <hr>
+                                <p class="ligne3">1 Filtre FUN <bmw class="red-text">S</bmw>
+                                </p>
+                                <hr>
+                                <p class="ligne4">Booster les ventes avec un dispositif fun incitant au coup de cœur</p>
+                                <p class="ligne5">Filtre sur mesure</p>
+                                <hr>
+                                <p class="ligne6"></p>
+                                <hr>
+                                <p class="ligne7"></p>
+                                <hr>
+                                <p class="ligne8">Catalogue Interactif Scan and View</p>
+                                <hr>
+                                <p class="ligne9">Vente via Mobile</p>
+                                <hr>
+                                <p class="ligne10">Impression photo papier</p>
+                                <hr>
+                                <p class="ligne11">Jeux interactifs</p>
+                                <hr>
+                                <p class="ligne12">Personnalisation du bas de l’écran</p>
+                                <hr class="mb-2">
+                                <a class="red-text" href="">En savoir plus</a>
+                            </div>
+                            <div class="columns-text table-column">
+                                <p class="ligne1"><strong>Essayage virtuel mode</strong></p>
+                                <hr>
+                                <ul class="ligne2">
+                                    <li>Essayage vêtements de MODE (5) : veste, robe, chemise…</li>
+                                    <li>Click & Buy</li>
+                                    <li>Rendu en 2D Option costume</li>
+                                </ul>
+                                <hr>
+                                <p class="ligne3">1 Filtre BRAND AR Photobooth <bmw class="red-text">XL</bmw>
+                                </p>
+                                <hr>
+                                <p class="ligne4">Enrichir l’expérience client sur votre point de vente, en proposant une
+                                    expérience fun
+                                    qui incite ensuite à découvrir le reste de la collection sur place</p>
+                                <p class="ligne5">Template sur mesure  2D ou 3D</p>
+                                <hr>
+                                <p class="ligne6">Modélisation en 3D</p>
+                                <hr>
+                                <p class="ligne7">Accessoires de mode en vente combinée</p>
+                                <hr>
+                                <p class="ligne8">Catalogue Interactif Scan and View</p>
+                                <hr>
+                                <p class="ligne9">Vente via Mobile</p>
+                                <hr>
+                                <p class="ligne10">Mini-site</p>
+                                <hr>
+                                <p class="ligne11">Jeux interactifs</p>
+                                <hr>
+                                <p class="ligne12">Personnalisation du bas de l’écran</p>
+                                <hr class="mb-2">
+                                <a class="red-text" href="">En savoir plus</a>
+                            </div>
+                        </div>
+                        <div class="text-center mobile-devis">
+                            <p>Une opé ou un devis sur mesure ?</p>
+                            <p><a href="" class="red-link">Parlons – nous</a></p>
+                        </div>
+                        <div class="mobile-tarifs mobile-tarifs-1">
+                            <div class="accordion-item accordion">
+                                    <h6 class="accordion-header" id="flush-headingOne">
+                                        <button id="myButton" onclick="changeText()" class="collapsed red-button mobile-accordion-button" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                            aria-expanded="false" aria-controls="flush-collapeOne">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd"d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" /></svg> Voir les tarifs
+                                        </button>
+                                    </h6>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <table class="table ">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col"></th>
+                                                    <th scope="col"><div class="th-text">3,2,1… Maquillée !</div></th>
+                                                    <th scope="col"><div class="th-text">Cap Fashionista</div></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                <th scope="row">Location 1 jour</th>
+                                                    <td>2.000 €</td>
+                                                    <td>2.400 €</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2 à 3 jours</th>
+                                                    <td>Supplément de 500 € par jour</td>
+                                                    <td>Supplément de 500 € par jour</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">4 à 5 jours</th>
+                                                    <td>Supplément de 500 € par jour</td>
+                                                    <td>Supplément de 500 € par jour</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recommanded-options">
+                                <img src="assets/images/page 7_8/mobile-recommanded.PNG" alt="">
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="row my-5 table-row-2">
+                        <div class="d-flex justify-content-evenly mobile-table-header">
+                            <p class="header-text">Let’s play</p>
+                            <p class="header-text">Click & Share !</p>
+                        </div>
+                        <div class="row table-columns c-2">                            
+                            <div class="columns-text table-column">
+                                <p class="ligne1"><strong>Gaming</strong></p>
+                                <hr>
+                                <p class="ligne2">1 Jeu interactif</p>
+                                <hr>
+                                <p class="ligne3">2 Filtres BRAND AR Photobooth <bmw class="red-text">XL</bmw>
+                                </p>
+                                <hr>
+                                <p class="ligne4">Divertir et renforcer le capital sympathie de votre marque</p>
+                                <p class="ligne5">Filtre FUN sur mesure</p>
+                                <hr>
+                                <p class="ligne6"></p>
+                                <hr>
+                                <p class="ligne7">Impression photo papier</p>
+                                <hr>
+                                <p class="ligne8">Jeux bon de réduction à gagner</p>
+                                <hr>
+                                <p class="ligne12">Personnalisation du bas de l’écran</p>
+                                <hr class="mb-2">
+                                <a class="red-text" href="">En savoir plus</a>
+                            </div>
+                            <div class="columns-text table-column">
+                                <p class="ligne1"><strong>Personnalisation du bas de l’écran</strong></p>
+                                <hr>
+                                <p class="ligne2">Filtres (5)  ** FUN / AR Photobooth</p>
+                                <hr>
+                                <p class="ligne3">1 Jeu interractif <bmw class="red-text">XL</bmw>
+                                </p>
+                                <hr>
+                                <p class="ligne4">Renforcer la notoriété de votre marque et contribuer au développement de
+                                    votre communauté</p>
+                                <p class="ligne5">GIF Interactif</p>
+                                <hr>
+                                <p class="ligne6">Catalogue immersif</p>
+                                <hr>
+                                <p class="ligne7">Questionnaire ludique</p>
+                                <hr>
+                                <p class="ligne8"></p>
+                                <hr>
+                                <p class="ligne12"></p>
+                                <hr class="mb-2">
+                                <a class="red-text" href="">En savoir plus</a>
+                            </div>
+                        </div>
+                        <div class="text-center mobile-devis">
+                            <p>Une opé ou un devis sur mesure ?</p>
+                            <p><a href="" class="red-link">Parlons – nous</a></p>
+                        </div>
+                        <div class="mobile-tarifs mobile-tarifs-2">
+                            <div class="accordion-item accordion">
+                                    <h6 class="accordion-header" id="flush-headingOne">
+                                        <button id="myButton" onclick="changeText()" class="collapsed red-button mobile-accordion-button" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                            aria-expanded="false" aria-controls="flush-collapeOne">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd"d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" /></svg> Voir les tarifs
+                                        </button>
+                                    </h6>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <table class="table ">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col"></th>
+                                                    <th scope="col"><div class="th-text">Let’s play</div></th>
+                                                    <th scope="col"><div class="th-text">Click & Share !</div></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                <th scope="row">Location 1 jour</th>
+                                                    <td>2.000 €</td>
+                                                    <td>2.400 €</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2 à 3 jours</th>
+                                                    <td>Supplément de 500 € par jour</td>
+                                                    <td>Supplément de 500 € par jour</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">4 à 5 jours</th>
+                                                    <td>Supplément de 500 € par jour</td>
+                                                    <td>Supplément de 500 € par jour</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recommanded-options">
+                                <img src="assets/images/page 7_8/mobile-recommanded.PNG" alt="">
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="row my-5 table-row-3">
+                        <div class="d-flex justify-content-evenly mobile-table-header">
+                            <p class="header-text">C’est Ma future maison</p>
+                            <p class="header-text">Mon meilleur moi !</p>
+                        </div>
+                        <div class="row table-columns c-3">                            
+                            <div class="columns-text table-column">
+                                <p class="ligne1"><strong>Visite virtuelle</strong></p>
+                                <hr>
+                                <p class="ligne2">Visite virtuelle 2D Photo /Vidéo</p>
+                                <hr>
+                                <p class="ligne3">1 Filtre BRAND <bmw class="red-text">S</bmw>
+                                </p>
+                                <hr>
+                                <p class="ligne4">Proposer une expérience différenciante par rapport à la concurrence</p>
+                                <p class="ligne5">Visite en 3D</p>
+                                <hr>
+                                <p class="ligne6">Filtre sur mesure</p>
+                                <hr>
+                                <p class="ligne7"></p>
+                                <hr>
+                                <p class="ligne9">Vente via Mobile</p>
+                                <hr>
+                                <p class="ligne10">Mini-site</p>
+                                <hr>
+                                <p class="ligne11">Jeux interactifs</p>
+                                <hr>
+                                <p class="ligne12">Personnalisation du bas de l’écran</p>
+                                <hr class="mb-2">
+                                <a class="red-text" href="">En savoir plus</a>
+                            </div>
+                            <div class="columns-text table-column">
+                                <p class="ligne1"><strong>Suggérer des tenues complètes à comparer</strong></p>
+                                <hr>
+                                <ul class="ligne2">
+                                    <li>Comparaison de tenue en essayage virtuel (5)</li>
+                                    <li>Click & Buy **Rendu 3D</li>
+                                </ul>
+                                <hr>
+                                <p class="ligne3">1 Filtre FUN <bmw class="red-text">XL</bmw>
+                                </p>
+                                <hr>
+                                <p class="ligne4">Éviter les queues en cabine d’essayage en permettant de l’essayage
+                                    comparatif sur les looks iconiques de votre collection</p>
+                                <p class="ligne5">Template sur mesure</p>
+                                <hr>
+                                <p class="ligne6">Modélisation en 3D</p>
+                                <hr>
+                                <p class="ligne7">Impression photo papier</p>
+                                <hr>    
+                                <p class="ligne9"></p>
+                                <hr>
+                                <p class="ligne10">Mini-site</p>
+                                <hr>
+                                <p class="ligne11">Jeux interactifs</p>
+                                <hr>
+                                <p class="ligne12">Personnalisation du bas de l’écran</p>
+                                <hr class="mb-2">
+                                <a class="red-text column-end-link" href="">En savoir plus</a>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="text-center mobile-devis">
+                            <p>Une opé ou un devis sur mesure ?</p>
+                            <p><a href="" class="red-link">Parlons – nous</a></p>
+                        </div>
+                        <div class="mobile-tarifs mobile-tarifs-3">
+                            <div class="accordion-item accordion">
+                                    <h6 class="accordion-header" id="flush-headingOne">
+                                        <button id="myButton" onclick="changeText()" class="collapsed red-button mobile-accordion-button" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                            aria-expanded="false" aria-controls="flush-collapeOne">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd"d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" /></svg> Voir les tarifs
+                                        </button>
+                                    </h6>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <table class="table ">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col"></th>
+                                                    <th scope="col"><div class="th-text">C’est Ma future maison</div></th>
+                                                    <th scope="col"><div class="th-text">Mon meilleur moi !</div></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                <th scope="row">Location 1 jour</th>
+                                                    <td>2.000 €</td>
+                                                    <td>2.400 €</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2 à 3 jours</th>
+                                                    <td>Supplément de 500 € par jour</td>
+                                                    <td>Supplément de 500 € par jour</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">4 à 5 jours</th>
+                                                    <td>Supplément de 500 € par jour</td>
+                                                    <td>Supplément de 500 € par jour</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recommanded-options">
+                                <img src="assets/images/page 7_8/mobile-recommanded.PNG" alt="">
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="both-models">
+                    <div class="in-the-both">
+                        <h3>Inclus dans les deux modèles de miroir</h3>
+                    </div>
+                    <div class="both-models-header">
+                        <img src="assets/images/page 7_8/both-models.png" alt="">
+                        <h3 class="both-models-head">Inclus dans les deux modèles de miroir</h3>
+                    </div>
+                    <div class="both-models-description text-start">
+                        <div class="d-flex">
+                            <img src="assets/images/page 7_8/Groupe 608.svg" alt="checked">
+                            <p>&nbsp; Partage Photo souvenir via Email / Qr code / Réseaux sociaux</p>                            
+                        </div>
+                        <div class="d-flex">                            
+                            <img src="assets/images/page 7_8/Groupe 608.svg" alt="checked">
+                            <p>&nbsp; Collecte DATA</p>
+                        </div>
+                        <div class="d-flex">                            
+                            <img src="assets/images/page 7_8/Groupe 608.svg" alt="checked">
+                            <p>&nbsp; Location du Miroir,  Création du contenu sur mesure Déplacement inclus* Gestion RGDP</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="on-mesure">
+                    <img src="assets/images/page 7_8/Groupe 1063.svg" alt="">
+                    <h4>Un devis sur mesure ?</h4>
+                    <button type="submit" class="darken-button red-button contact-button">Contactez-nous !</button>
+                </div>
+                <div class="reservations ">
+                    <div class="reservation-text">
+                        <h2>INFOS Réservations</h2>
+                        <p>Nos deux modèles de Miroir à votre service</p>
+                    </div>
+                    <div class="reservation-button-div">
+                        <button type="submit" class="darken-button red-button white-button">Vérifier la dispo</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>   
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    
+    <script src="assets/js/scripts.js"></script>
 </body>
+
 </html>

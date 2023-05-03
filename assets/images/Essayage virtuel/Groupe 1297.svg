@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77.977" height="82.978" viewBox="0 0 77.977 82.978">
+  <defs>
+    <filter id="Tracé_72" x="1.53" y="6.53" width="76.447" height="76.447" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#ff4545"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_1297" data-name="Groupe 1297" transform="translate(-606.745 -6130.271)">
+    <g id="Groupe_362" data-name="Groupe 362" transform="translate(615.275 6138.802)">
+      <g id="Groupe_11" data-name="Groupe 11" transform="translate(0)">
+        <g transform="matrix(1, 0, 0, 1, -8.53, -8.53)" filter="url(#Tracé_72)">
+          <path id="Tracé_72-2" data-name="Tracé 72" d="M16.421,0A16.422,16.422,0,1,1,0,16.421,16.422,16.422,0,0,1,16.421,0Z" transform="translate(8.53 31.75) rotate(-45)" fill="#ff4545"/>
+        </g>
+        <path id="Soustraction_2" data-name="Soustraction 2" d="M5.478,28.666c-.227-.2-.452-.416-.669-.633A16.422,16.422,0,1,1,28.033,4.81c.22.22.437.449.644.682A16.422,16.422,0,0,0,5.48,28.665Z" transform="translate(6.47 6.47)" fill="#fff"/>
+        <path id="Soustraction_1" data-name="Soustraction 1" d="M12.257,28.678A16.315,16.315,0,0,1,.644,23.868c-.22-.22-.437-.45-.645-.682A16.422,16.422,0,0,0,23.189,0c.241.216.469.432.679.642a16.42,16.42,0,0,1,0,23.223A16.312,16.312,0,0,1,12.257,28.678Z" transform="translate(10.967 10.967)" fill="#ff4545" opacity="0.4"/>
+      </g>
+    </g>
+    <circle id="Ellipse_42" data-name="Ellipse 42" cx="7" cy="7" r="7" transform="translate(631.275 6154.802)" fill="#ff4545"/>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+:root{
+    /* Colors  */
+    --light_gray: #EEEEEE;
+    --light_orange: #FFD8D8;
+    --red-orange: #FF4545;
+    --blue: #008DFF;
+    --pink-purple: #CD388C;
+    --orange: #FF9945;
+    --dark-red-orange: #D51212;
+    --dark-blue: #0061AF;
+    --dark-pink-puple: #BE006B;
+    --dark-orange: #FF7402;
+}
+.red-text{
+    color: var(--red-orange);
+}
+.red-link{
+    color: var(--red-orange);
+}
+.red-link:hover{
+    text-decoration-line: none;
+}
+.red-button{
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: var(--red-orange);
+    border-radius: 30px;
+    margin: auto;
+    color: white;
+}
+.red-button:hover{
+    background-color: var(--dark-red-orange);
+}
+.white-button{
+    background-color: white;
+    color: var(--red-orange);
+    margin-top: 20px;
+    width: 180px;
+}
+.white-button:hover{
+    background-color: #FFD8D8;
+}
+a:hover{
+    text-decoration-line: none;
+}
+
+@font-face {
+    font-family: 'Modulus pro';
+    src: url('../../fonts/modulus-pro-medium.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Modulus pro bold';
+    src: url('../../fonts/modulus-pro-bold.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

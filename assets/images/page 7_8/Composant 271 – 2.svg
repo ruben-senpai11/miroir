@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="450" height="337" viewBox="0 0 450 337">
+  <defs>
+    <filter id="Rectangle_372" x="0" y="10" width="450" height="327" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Composant_271_2" data-name="Composant 271 – 2" transform="translate(30)">
+    <g id="Rectangle_98" data-name="Rectangle 98" transform="translate(24.999)" fill="#ff4545" stroke="#ff4545" stroke-width="3">
+      <rect width="339" height="37" rx="18.5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="336" height="34" rx="17" fill="none"/>
+    </g>
+    <g id="Groupe_901" data-name="Groupe 901" transform="translate(130.999 6.5)">
+      <text id="Voir_les_tarifs" data-name="Voir les tarifs" transform="translate(80.217 18)" fill="#fff" font-size="16" font-family="OpenSans, Open Sans"><tspan x="-48" y="0">Voir les tarifs</tspan></text>
+      <path id="Tracé_71" data-name="Tracé 71" d="M1024.144,992.856l8.381,8.381,8.381-8.381" transform="translate(-1024.362 -984.599)" fill="none" stroke="#fff" stroke-width="2"/>
+    </g>
+    <g id="Groupe_1094" data-name="Groupe 1094" transform="translate(-543.505 1313.581)" opacity="0">
+      <g transform="matrix(1, 0, 0, 1, 513.5, -1313.58)" filter="url(#Rectangle_372)">
+        <rect id="Rectangle_372-2" data-name="Rectangle 372" width="390" height="267" rx="20" transform="translate(30 37)" fill="#fff"/>
+      </g>
+      <g id="Groupe_928" data-name="Groupe 928" transform="translate(555.977 -1259.28)">
+        <text id="Location_1_jour_" data-name="Location 1 jour " transform="translate(11.528 63.699)" fill="#333" font-size="14" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="15">Location 1 </tspan><tspan x="0" y="32">jour </tspan></text>
+        <text id="_2_à_3_jours_" data-name="2 à 3 jours " transform="translate(11.528 149.699)" fill="#333" font-size="14" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">2 à 3 jours </tspan></text>
+        <text id="_4_à_5_jours_" data-name="4 à 5 jours " transform="translate(11.528 216.699)" fill="#333" font-size="14" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">4 à 5 jours </tspan></text>
+        <g id="Groupe_907" data-name="Groupe 907" transform="translate(102.418 0)">
+          <rect id="Rectangle_371" data-name="Rectangle 371" width="118" height="49" transform="translate(0.108 -0.302)" fill="#eee"/>
+          <text id="_3_2_1_Maquillée_" data-name="3,2,1… Maquillée !" transform="translate(11.109 28.699)" fill="#333" font-size="14" font-family="ModulusPro-Bold, Modulus Pro" font-weight="700"><tspan x="0" y="0">3,2,1… Maquillée</tspan><tspan y="0" font-family="MongolianBaiti, Mongolian Baiti" font-weight="400"> </tspan><tspan y="0">!</tspan></text>
+        </g>
+        <g id="Groupe_908" data-name="Groupe 908" transform="translate(234.131 0)">
+          <rect id="Rectangle_371-2" data-name="Rectangle 371" width="117" height="49" transform="translate(0.396 -0.302)" fill="#eee"/>
+          <text id="Cap_Fashionista" data-name="Cap Fashionista" transform="translate(13.397 28.699)" fill="#333" font-size="14" font-family="ModulusPro-Bold, Modulus Pro" font-weight="700"><tspan x="0" y="0">Cap Fashionista</tspan></text>
+        </g>
+        <g id="Groupe_903" data-name="Groupe 903" transform="translate(137.67 72.692)">
+          <text id="_2.000_" data-name="2.000 €" transform="translate(-0.143 13.007)" fill="#333" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">2.000 €</tspan></text>
+        </g>
+        <g id="Groupe_913" data-name="Groupe 913" transform="translate(269.887 72.692)">
+          <text id="_2.400_" data-name="2.400 €" transform="translate(-0.36 13.007)" fill="#333" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">2.400 €</tspan></text>
+        </g>
+        <g id="Groupe_915" data-name="Groupe 915" transform="translate(118.891 128.102)">
+          <text id="Supplément_de_500_par_jour" data-name="Supplément de
+500 € par jour" transform="translate(42.636 12.597)" fill="#333" font-size="14" font-family="OpenSans, Open Sans"><tspan x="-49" y="0">Supplément de</tspan><tspan x="-45" y="19">500 € par jour</tspan></text>
+        </g>
+        <g id="Groupe_921" data-name="Groupe 921" transform="translate(118.891 193.322)">
+          <text id="Supplément_de_400_par_jour" data-name="Supplément de
+400 € par jour" transform="translate(42.636 13.377)" fill="#333" font-size="14" font-family="OpenSans, Open Sans"><tspan x="-49" y="0">Supplément de</tspan><tspan x="-45" y="19">400 € par jour</tspan></text>
+        </g>
+        <g id="Groupe_922" data-name="Groupe 922" transform="translate(250.941 193.322)">
+          <text id="Supplément_de_400_par_jour-2" data-name="Supplément de
+400 € par jour" transform="translate(42.586 13.377)" fill="#333" font-size="14" font-family="OpenSans, Open Sans"><tspan x="-49" y="0">Supplément de</tspan><tspan x="-45" y="19">400 € par jour</tspan></text>
+        </g>
+        <g id="Groupe_916" data-name="Groupe 916" transform="translate(250.941 128.102)">
+          <text id="Supplément_de_500_par_jour-2" data-name="Supplément de
+500 € par jour" transform="translate(42.586 12.597)" fill="#333" font-size="14" font-family="OpenSans, Open Sans"><tspan x="-49" y="0">Supplément de</tspan><tspan x="-45" y="19">500 € par jour</tspan></text>
+        </g>
+        <line id="Ligne_147" data-name="Ligne 147" x2="249" transform="translate(102.527 108.699)" fill="none" stroke="#d9d9d9" stroke-width="1"/>
+        <line id="Ligne_148" data-name="Ligne 148" x2="249" transform="translate(102.527 174.699)" fill="none" stroke="#d9d9d9" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

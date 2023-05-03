@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="562.182" height="314.498" viewBox="0 0 562.182 314.498">
+  <defs>
+    <filter id="Rectangle_192" x="0" y="0" width="562.182" height="314.498" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="27" result="blur"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_1292" data-name="Groupe 1292" transform="translate(-335.296 -3927.385)">
+    <g id="Composant_117_1" data-name="Composant 117 – 1" transform="translate(416.296 3979.328)">
+      <g transform="matrix(1, 0, 0, 1, -81, -51.94)" filter="url(#Rectangle_192)">
+        <rect id="Rectangle_192-2" data-name="Rectangle 192" width="400.182" height="152.498" rx="76.249" transform="translate(81 61)" fill="#333"/>
+      </g>
+      <text id="_3_2_1_Maquillée_" data-name="3,2,1…
+Maquillée ! " transform="translate(56.833 72.65)" fill="#fff" font-size="32" font-family="ModulusPro-Bold, Modulus Pro" font-weight="700"><tspan x="0" y="0">3,2,1…</tspan><tspan x="0" y="38">MAQUILLÉE</tspan><tspan y="38" font-family="MongolianBaiti, Mongolian Baiti" font-weight="400"> </tspan><tspan y="38">! </tspan></text>
+      <rect id="Rectangle_407" data-name="Rectangle 407" width="42" height="20" rx="10" transform="translate(15.026 21) rotate(-30)" fill="#ff4545" opacity="0"/>
+    </g>
+    <path id="Tracé_145" data-name="Tracé 145" d="M10,0H32a10,10,0,0,1,0,20H10A10,10,0,0,1,10,0Z" transform="translate(431.322 4000.328) rotate(-30)" fill="#ff4545" opacity="0"/>
+  </g>
+</svg>

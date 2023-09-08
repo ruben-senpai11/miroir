@@ -10,6 +10,11 @@
     --dark-blue: #0061AF;
     --dark-pink-puple: #BE006B;
     --dark-orange: #FF7402;
+    --dark-black: #333333;
+    --dark-light: #EEEEEE;
+}
+.dark-text{
+    color: var(--dark-black);
 }
 .red-text{
     color: var(--red-orange);
@@ -20,23 +25,33 @@
 .red-link:hover{
     text-decoration-line: none;
 }
-.red-button{
+.button{
     height: 40px;
-    width: 150px;
-    border: none;
-    background-color: var(--red-orange);
+    padding: 4px 20px!important;
+    border: 2px solid var(--red-orange);
     border-radius: 30px;
     margin: auto;
+}
+.red-button{
+    height: 40px;
+    padding: 4px 20px!important;
+    border: 2px solid var(--red-orange);
+    border-radius: 30px;
+    /* margin: auto; */
+    background-color: var(--red-orange);
     color: white;
 }
 .red-button:hover{
     background-color: var(--dark-red-orange);
 }
 .white-button{
+    height: 40px;
+    padding: 4px 20px!important;
+    border: 2px solid var(--red-orange);
+    border-radius: 30px;
+    /* margin: auto; */
     background-color: white;
     color: var(--red-orange);
-    margin-top: 20px;
-    width: 180px;
 }
 .white-button:hover{
     background-color: #FFD8D8;
@@ -44,7 +59,10 @@
 a:hover{
     text-decoration-line: none;
 }
-
+h3{
+    font-family: 'Modulus pro bold';
+    font-size: 24px!important;
+}
 @font-face {
     font-family: 'Modulus pro';
     src: url('../../fonts/modulus-pro-medium.woff') format('truetype');
@@ -56,4 +74,306 @@ a:hover{
     src: url('../../fonts/modulus-pro-bold.woff') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
+
+.first-section{
+    width: 100%!important;
+    height: 800px!important;
+    background: url('../images/Groupe 1291.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-position-x: center;
+    background-position-y: -20px;
+    background-size: 100% 100%!important;
+    /* border: solid; */
+}
+.tendency{
+    max-width: 40%!important;
+    margin-left: 13%!important;
+    /* border: solid lightblue; */
+    padding: 270px 0 50px 30px!important;
+}
+.tendency h1{
+    max-width: 40%!important;
+    font-size: 65px!important;
+    font-family: 'Modulus pro bold';
+}
+.tendency img{
+    width: 230px;
+    height: 22px;
+    margin: 0 0 0 20px!important;
+}
+.discover-tendency{
+    width: 100%;
+    height: 40%;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #33333349;
+}
+.discover-tendency-buttons{
+    display: flex;
+    justify-content: space-between!important;
+}
+.tendency-img{
+    position: absolute;
+    max-width: 52%!important;
+    height: 100%;
+    /* border: solid orange; */
+    right: 0;
+    display: grid;
+    align-items: center;
+}
+.tendency-img img{
+    max-width: 100%;
+    margin-top: 40px;
+    /* float: inline-end; */
+    /* border: solid;   */
+}
+
+.feature{
+    width: 970px;
+    margin: 0px auto;   
+    padding: 15px auto;
+}
+.feature button{
+    border: none;
+}
+.feature button:hover{
+    box-shadow: 0px 0px 5px #0000004b;
+}
+.rounded-feat{
+    height: 60px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px #0000004b;
+    margin: 0 15px;
+}
+.rounded-feat p{
+    margin-top: 10px;
+    width: fit-content;
+}
+.rounded-feat p img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.rounded-feat a{
+    color: var(--red-orange);
+    font-family: 'Modulus pro bold';
+    font-weight: 300;
+    font-size: 14px
+}
+.rounded-feat a:hover{
+    text-decoration-line: none!important;
+}
+.active-feat a, .active-feat p img{
+    color: var(--dark-black)!important;
+    text-decoration-line: none!important;
+    /* background-color: var(--dark-black)!important; */
+}
+.active-feat, .active-feat:hover{    
+    box-shadow: 0px 0px 2px #0000004b!important;
+}
+
+
+.splide{
+    width: 50%!important;
+    height: 50%!important;
+    overflow: hidden!important;
+    margin: 60px auto!important;
+}
+.splide__slide img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.splide__pagination__page.is-active{
+    width: 11px!important;
+    height: 11px!important;
+    scale: 0.8!important;
+    background-color: var(--dark-black)!important;
+}
+.splide__pagination__page{
+    width: 11px!important;
+    height: 11px!important;
+    margin: 4px!important;
+    background-color: white!important;
+    box-shadow: 0 0 2px!important;
+}
+.splide__arrow{
+    background-color: #333333!important;
+    z-index: 555!important;
+}
+.splide__arrow:hover{
+    position: absolute!important;
+    z-index: 2!important;
+    /* background-color: var(--dark-black)!important; */
+}
+.splide__arrow--prev{
+    margin-left: -0px!important;
+}
+.splide__arrow--next{
+    margin-left: 0px!important;
+}
+.splide__slide{
+    margin: 0 -0px!important;
+}
+
+.fitting-articles{
+    width: 100%!important;
+    height: 500px;
+    margin: 100px auto !important;
+    padding: 10% 13%!important;
+    background: transparent url('../images/Groupe\ 1113.svg') 0% 0% no-repeat padding-box;
+    /* background: transparent url('img/Groupe 1113.png')0% 0% no-repeat padding-box; */
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover!important;
+    /* border: solid; */
+}
+.fitting-img{
+    width: 50%;
+    margin: -5% 0 0 0;
+    /* border: solid; */
+}
+.fitting-img img{
+    width: 97%;
+    height: 100%;
+}
+.fitting-text{
+    width: 75%;
+    height: 100%;
+    margin: 5px 0px 0 10px!important;
+    /* border: solid; */
+}
+.pre-img{
+    width: 15px;
+    height: 15px;
+    margin: 8px 7px 0 0!important;
+}
+.fitting-buttons button{
+    width: 200px;
+    margin: 30px 50px 30px 0!important;
+}
+.fitting-buttons .white-button{
+    width: 190px;
+}
+
+.fitting_ia{
+    margin: 150px 14% 40px 14%;
+    padding: 0!important;
+}
+.ia-fit-img{
+    width: 100%;
+    margin: 0!important;
+}
+.ia-fit-text{
+    width: 65%!important;
+    margin: 0 0 0 4%!important;
+}
+.ia-fit-text{
+    margin: -4% 0 4% 0;
+}
+.ia-fit-text p{
+    font-size: 14px;
+}
+
+.marketing-solutions{
+    width: 100%!important;
+    height: 5000px;
+    background: transparent url('../images/Groupe 1298.svg') 0% 0% no-repeat padding-box!important;
+    background-size: 5000px 6500px!important;
+    background-position-x: -3000px !important;
+    background-position-y: -2900px!important;
+    border: solid white;
+}
+.test-div{
+    margin: 5px 20px!important;
+}
+.test{
+    width: 8px;
+    height: 9px;
+    margin: 4px;
+    color: white;
+    transform: skewX(-50deg);
+    background: var(--red-orange) 0% 0% no-repeat padding-box;
+    border-radius: 10px!important;
+    opacity: 1;
+}
+.marketing-header{
+    max-width: 50%;
+    margin: 110px auto;
+    margin-bottom: 60px;
+}
+.marketing-header p{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.button-and-text{
+    margin: 0px 18%!important;
+    padding: 0!important;
+}
+.black-button{
+    border: none;
+    width: 60%;
+    height: 105px;
+    padding: 0px 35px!important;
+    text-align: start;
+    text-transform: uppercase;
+    line-height: 25px!important;
+    color: white;
+    font-family: 'Modulus pro';
+    font-size: 23px;
+    background-color: var(--dark-black);
+    border-radius: 100px;
+    box-shadow: 0px 0px 20px #33333359;
+}
+.black-button-label{
+    width: 90%;
+    height: 135px!important;
+    margin-top: -4%;
+    margin-bottom: 15%;
+    float: right;
+    padding: 8% 5% 5% 12%;
+    background-color: var(--dark-light);
+    border-radius: 15px;
+}
+.black-button-label h4{
+    font-family: 'Modulus pro bold';
+    font-size: 20px;
+    padding-right: 55px!important;
+}
+.black-button-label p{
+    font-size: 14px;
+}
+
+.header-p-2{
+    width: 110%!important;
+}
+
+.how-it-works{
+    margin: 150px 14% 40px 14%;
+}
+
+.how-title{
+    height: var(--how-height);
+}
+.how-hr{
+    /* width: 0!important; */
+}
+.how-desctiption{
+    --how-height: height;
+    height: 100%;
+}
+.how-separator{
+    /* font-size: 100px; */
+    /* max-height: 1px!important; */
+    padding: 0!important;
+    color: var(--red-orange);
+    background: none!important;
+    /* border: solid!important; */
+    border-radius: 200px;
+    box-shadow: 10px #ff45456c!important;
 }
